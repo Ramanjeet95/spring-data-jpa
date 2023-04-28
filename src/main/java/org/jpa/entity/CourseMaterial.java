@@ -2,12 +2,15 @@ package org.jpa.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 
 @Entity
 @Table(name = "course_material")
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class CourseMaterial {
